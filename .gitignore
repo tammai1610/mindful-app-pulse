@@ -3,3 +3,9 @@ data/
 __pycache__/
 .env
 files/
+# dbt (Phase 3): credentials and build output
+profiles.yml
+target/
+logs/
+dbt_packages/
+*.db
